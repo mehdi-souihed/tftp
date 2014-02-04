@@ -20,6 +20,13 @@ Two executables will be created :
   - client/trivial : the TFTP client
 
 ==========================================================
+
+Test script :
+
+go to the test/ folder and run test.pl
+
+
+==========================================================
 How to run it :
 
 First you have to launch the server via the terminaland specify a port where to listen, for instance :
