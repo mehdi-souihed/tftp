@@ -30,6 +30,8 @@ Then you have to run the client specifying the file ,the operation, the host and
 
 ./trivial -p 5001 -H 127.0.0.1 -w dummy_file
 
+The above will send dummy_file to the server and save it in the current directory.
+
 You can have help on the options available with the -h option
 
 
