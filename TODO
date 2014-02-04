@@ -1,0 +1,17 @@
+-------------------------- FAIT---------------------------------------
+- setters & getters protocole tftp  //FAIT
+- protocole tftp - un enorme switch // RRQ, ACK, DATA WRQ, faits manque OACK
+- timeout select // FAIT
+- arguments par ligne de commande // FAIT
+- check des entrées // FAIT
+- fread & fwrite au lieu de read & write// FAIT
+-Utiliser struct stored pour lire et écrire :
+  tftp_read(stored,nbBytes); // FAIT
+- temps avant retransmission client// FAIT
+- Implémenter ERROR dans tftp()//FAIT
+
+------------------------- A FAIRE -------------------------------------
+
+- gérer les htons etc
+?- Implémenter les options OACK !
+- ecrire les fonctions de nettoyage pour client et serveur
