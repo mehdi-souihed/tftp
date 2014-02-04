@@ -16,7 +16,7 @@ common.o:	common.c common.h
 
 clean:	
 	@rm -f ./client/trivial
-	@rm -f ./server/*
+	@rm -f ./server/triviald
 	@rm -rf *.o
 	@rm -rf *~
 	@rm -rf *.log
